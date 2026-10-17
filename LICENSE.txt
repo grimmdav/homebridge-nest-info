@@ -1,0 +1,7 @@
+Copyright (c) 2026 grimmdav. All rights reserved.
+
+No general permission is granted to use, reproduce, modify, distribute,
+sublicense, or sell original content or design in this repository.
+Rights provided by applicable law and the GitHub Terms of Service remain
+unaffected. This notice does not apply to third-party material and does not
+alter the licenses of Homebridge, its plugins, or other third-party software.

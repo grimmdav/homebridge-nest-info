@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about Homebridge Nest, a personal household integration between a Nest thermostat and Apple Home.">
+  <title>Homebridge Nest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a class="brand" href="./">Homebridge Nest</a><nav aria-label="Main navigation"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav></header>
+  <main>
+    <p class="eyebrow">Personal household integration</p>
+    <h1>A Nest thermostat,<br>connected to Apple Home.</h1>
+    <p class="lead">Homebridge Nest is a private, personal-use integration operated by <a href="https://github.com/grimmdav">grimmdav</a>. It connects the operator’s Nest Learning Thermostat to Apple Home through a locally hosted Homebridge installation and a community Nest SDM plugin.</p>
+    <section><h2>What the integration does</h2><p>With the operator’s permission, it uses Google’s Smart Device Management API to read thermostat information, receive device updates through Google Cloud Pub/Sub, and send thermostat commands such as temperature and mode changes initiated through Apple Home.</p></section>
+    <section><h2>Why Google access is requested</h2><p>Nest device access enables thermostat discovery, status readings, and control. Pub/Sub access enables the plugin to receive updates from the configured event subscription. OAuth credentials and tokens are configured privately in Homebridge; this website does not collect them.</p></section>
+    <section><h2>For one household</h2><p>This is not a public service or an invitation to connect other Google accounts. The site provides information for the operator’s OAuth configuration. It offers no sign-in form or thermostat controls.</p><p>This project is independent of, and is not endorsed by, Google, Nest, Apple, or the Homebridge project.</p></section>
+    <aside><h2>Information and contact</h2><p>Read the <a href="privacy.html">privacy policy</a> and <a href="terms.html">terms of use</a>. Questions about this integration may be sent to <a href="mailto:grimmdav@gmail.com">grimmdav@gmail.com</a>. Do not send credentials, tokens, or private device data.</p></aside>
+  </main>
+  <footer>© 2026 grimmdav. All rights reserved. <span>Updated October 17, 2026</span></footer>
+</body>
+</html>
